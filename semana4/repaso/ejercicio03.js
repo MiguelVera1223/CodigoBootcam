@@ -26,7 +26,6 @@ function getAdultsUser2() {
     console.log(user)
 }
 
-getAdultsUser2();
 
-
+getAdultsUser();
 

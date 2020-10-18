@@ -8,7 +8,7 @@
 
 const mostrarDataPorPais = (pais) => {
   for (let c = 0; c < covid.length; c++) {
-    if (covid[c].country === pais) {
+    if (covid[c].country === pais) { //la data es covid 
       // console.log(covid[c]);
       let encontrado = {
         nombrePais: covid[c].country,

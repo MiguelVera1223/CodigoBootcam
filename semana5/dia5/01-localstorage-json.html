@@ -28,6 +28,14 @@
       .borde-rojo {
         border: 3px solid #dc143c;
       }
+      .paper {
+        background-color: #fafafa;
+        padding: 2rem;
+        margin-top: 1rem;
+      }
+      table {
+        width: 100%;
+      }
     </style>
   </head>
   <body>
@@ -50,13 +58,15 @@
 
       <a href="https://www.google.com" id="link"> ¿Olvidaste tu contraseña? </a>
       <br />
-      <small class="texto-rojo" id="helper" hidden>Todos los campos deben estar llenos</small>
+      <small class="texto-rojo" id="helper" hidden
+        >Todos los campos deben estar llenos</small
+      >
       <hr />
       <!-- un formulario sólo debe tener 1 submit -->
       <button type="submit">Crear Usuario</button>
       <button type="button">Cancelar</button>
     </form>
-    <section>
+    <section class="paper">
       <table border="1">
         <thead>
           <tr>
@@ -70,6 +80,7 @@
       </table>
     </section>
 
-    <script src="./04-eventos-forms.js"></script>
+    <script src="./01-localstorage-json.js"></script>
   </body>
 </html>
+s

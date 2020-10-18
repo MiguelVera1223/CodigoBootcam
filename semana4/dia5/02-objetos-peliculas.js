@@ -27,7 +27,8 @@ peliculasResumen();
 
 const peliculasLatinas = () => {
   const pelisFiltradas = peliculas.filter((pelicula) => {
-    if (pelicula.original_language === "es") {
+    //original_language es el atributo de pelicula
+    if (pelicula.original_language === "es") { 
       return pelicula;
     }
   });
@@ -50,7 +51,7 @@ const searchGenreById = (id) => {
    */
 
   const generoEncontrado = generos.find((genero) => {
-    if (genero.id === id) {
+    if (genero.id === id) { //la data es genero
       return genero;
     }
   });
